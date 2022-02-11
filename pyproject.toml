@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "image-compression-using-kmeans"
+version = "0.1.0"
+description = "Streamlit Application to compress Images using KMeans"
+authors = ["Saurabh Ghanekar <ghanekarsaurabh8@gmail.com>"]
+license = "BSD 2-Clause License"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.0"
+streamlit = "^1.5.1"
+numpy = "^1.22.2"
+Pillow = "^9.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
