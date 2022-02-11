@@ -140,3 +140,4 @@ cython_debug/
 # Custom ignore files/folders
 .DS_Store
 .vscode
+poetry.lock
